@@ -1,13 +1,59 @@
-<img src="profile.jpg" alt="내 프로필 사진" class="profile-pic">
-<style>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>오승현 포트폴리오</title>
+  
+  <style>    
     .profile-pic {
-        width: 250px;
-        height: 250px;
-        border-radius: 50%;
-        object-fit: cover;
-        margin-bottom: -30px;
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: -30px;
     }
-</style>
-<h1 style="font-size: 60px;">SEUNG HYUN OH</h1>
-<b>TEL.</b> 010-5739-3212 <b><span style="font-size: larger;">|</span></b> <b>E-MAIL.</b> osh200420@gmail.com <br>
-<b>ADDRESS.</b> 17 Oedae-ro 54beon-gil, Mohyeon-eup, Cheoin-gu, Yongin-si, Gyeonggi-do
+
+    .profile-name {
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+
+    .contact-info {
+      line-height: 1.6; 
+    }
+
+    .separator {
+      font-size: larger;
+      margin: 0 5px; 
+    }
+
+    .about {
+      margin-top: 30px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 내용(HTML) 영역: 방문자에게 보여질 실제 콘텐츠만 깔끔하게 배치합니다. -->
+  <section class="profile-section">
+    <img src="profile.jpg" alt="프로필 사진" class="profile-pic">
+    
+    <h1 class="profile-name">SEUNG HYUN OH</h1>
+    
+    <p class="contact-info">
+      <strong>TEL.</strong> 010-5739-3212 
+      <span class="separator">|</span> 
+      <strong>E-MAIL.</strong> osh200420@gmail.com <br>
+      <strong>ADDRESS.</strong> 17 Oedae-ro 54beon-gil, Mohyeon-eup, Cheoin-gu, Yongin-si, Gyeonggi-do
+    </p>
+    
+    <p class="about">
+      <strong>모의해킹 및 취약점 분석 전문가(Security Researcher)</strong>를 꿈꾸는 대학생입니다.<br>
+      끊임없는 원리 탐구와 논리적 검증을 통해 시스템의 사각지대를 방어하는 전문가로 성장할 수 있도록 노력하겠습니다.
+    </p>
+  </section>
+
+</body>
+</html>
