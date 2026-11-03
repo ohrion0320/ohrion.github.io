@@ -1,59 +1,134 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>오승현 포트폴리오</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오승현 포트폴리오</title>
   
-  <style>    
-    .profile-pic {
-      width: 250px;
-      height: 250px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: -30px;
-    }
+    <style>
+        body {
+            padding-left: 25px;
+        }    
 
-    .profile-name {
-      font-size: 60px;
-      margin-bottom: 10px;
-    }
+        .profile-pic {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: -30px;
+        }
 
-    .contact-info {
-      line-height: 1.6; 
-    }
+        .profile-name {
+            font-size: 80px;
+            margin-bottom: 10px;
+        }
 
-    .separator {
-      font-size: larger;
-      margin: 0 5px; 
-    }
+        .contact-info {
+            line-height: 1.6; 
+        }
 
-    .about {
-      margin-top: 30px;
-      line-height: 1.6;
-    }
-  </style>
+        .separator {
+            font-size: larger;
+            margin: 0 5px; 
+        }
+
+        .about {
+            margin-top: 30px;
+            line-height: 1.6;
+        }
+    
+        .logo-instagram {
+            width: 50px;
+            height: 50px;
+            border-radius: 25%;
+            object-fit: cover;
+            margin-top: 10px;
+        }
+
+        .logo-github {
+            width: 50px;
+            height: 50px;
+            border-radius: 25%;
+            object-fit: cover;
+            margin-top: 10px;
+            margin-left: 10px;       
+        }
+
+        .logo-x {
+            width: 50px;
+            height: 50px;
+            border-radius: 25%;
+            object-fit: cover;
+            margin-top: 10px;
+            margin-left: 10px;           
+        }
+
+    </style>
 </head>
 <body>
+    <section class="profile-section">
+        <img src="profile.jpg" alt="프로필 사진" class="profile-pic">
+    
+        <h1 class="profile-name">SEUNG HYUN OH</h1>
+    
+        <p class="contact-info">
+            <strong>TEL.</strong> 010-5739-3212 
+            <span class="separator">|</span> 
+            <strong>E-MAIL.</strong> osh200420@gmail.com <br>
+            <strong>ADDRESS.</strong> 17 Oedae-ro 54beon-gil, Mohyeon-eup, Cheoin-gu, Yongin-si, Gyeonggi-do
+        </p>
+    
+        <p class="about">
+            <strong>모의해킹 및 취약점 분석 전문가(Security Researcher)</strong>를 꿈꾸는 대학생입니다.<br>
+            끊임없는 원리 탐구와 논리적 검증을 통해 시스템의 사각지대를 방어하는 전문가로 성장할 수 있도록 노력하겠습니다.
+        </p>
 
-  <!-- 내용(HTML) 영역: 방문자에게 보여질 실제 콘텐츠만 깔끔하게 배치합니다. -->
-  <section class="profile-section">
-    <img src="profile.jpg" alt="프로필 사진" class="profile-pic">
-    
-    <h1 class="profile-name">SEUNG HYUN OH</h1>
-    
-    <p class="contact-info">
-      <strong>TEL.</strong> 010-5739-3212 
-      <span class="separator">|</span> 
-      <strong>E-MAIL.</strong> osh200420@gmail.com <br>
-      <strong>ADDRESS.</strong> 17 Oedae-ro 54beon-gil, Mohyeon-eup, Cheoin-gu, Yongin-si, Gyeonggi-do
-    </p>
-    
-    <p class="about">
-      <strong>모의해킹 및 취약점 분석 전문가(Security Researcher)</strong>를 꿈꾸는 대학생입니다.<br>
-      끊임없는 원리 탐구와 논리적 검증을 통해 시스템의 사각지대를 방어하는 전문가로 성장할 수 있도록 노력하겠습니다.
-    </p>
-  </section>
+        <a href="https://www.instagram.com/winhyun04/" target="_blank">
+            <img src="logo(instagram).png" alt="인스타그램 링크" class="logo-instagram">
+        </a>
 
+        <a href="https://github.com/ohrion0320" target="_blank">
+            <img src="logo(github).png" alt="깃허브 링크" class="logo-github">
+        </a>
+
+        <a href="https://x.com/hyunni432" target="_blank">
+            <img src="logo(x).png" alt="x 링크" class="logo-x">
+        </a>
+
+    </section>
+
+    <section class="education">
+        <h2 style="font-size: 60px; margin-top: 100px;">학력사항</h2>
+            <div>
+                <h3 style="font-size: 30px; margin-top: -20px;">HANGUK UNIVERSITY OF FOREIGN STUDIES</h3>
+                <p style="margin-top: -30px; font-size: 20px;" >컴퓨터공학부</p>
+                <p style="margin-top: -10px;">재학(March 2023 ~)</p>
+            </div><br>
+            <div>
+                <h3 style="font-size: 30px; margin-top: -10px;">IKSAN HIGHSCHOOL</h3>
+                <p style="margin-top: -30px; font-size: 20px;" >인문계열 이과</p>
+                <p style="margin-top: -10px;">졸업(March 2020 ~ February 2023)</p>               
+            </div>
+    </section>
+
+    <section class="certificate">
+        <h2 style="font-size: 60px; margin-top: 100px;">기술 자격증 </h2>
+            <div>
+                <h3 style="font-size: 30px; margin-top: -20px;">데이터 분석 준전문가(ADsP)</h3>
+                <p style="margin-top: -30px; font-size: 20px;" >28 November 2025</p>
+            </div><br>
+            <div>
+                <h3 style="font-size: 30px; margin-top: -10px;">컴퓨터활용능력 1급</h3>
+                <p style="margin-top: -30px; font-size: 20px;" >12 August 2025</p>         
+            </div><br>
+            <div>
+                <h3 style="font-size: 30px; margin-top: -10px;">SQL 개발자(SQLD)</h3>
+                <p style="margin-top: -30px; font-size: 20px;" >04 April 2025</p>         
+            </div><br>
+            <div>
+                <h3 style="font-size: 30px; margin-top: -10px;">워드프로세서</h3>
+                <p style="margin-top: -30px; font-size: 20px;" >20 December 2024</p>         
+            </div><br>
+    </section>
 </body>
 </html>
