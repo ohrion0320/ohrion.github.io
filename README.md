@@ -15,8 +15,8 @@
 ---
 
 ## Overview
-▶ **목적:** 학부 전공 과제 및 개인 역량 증명을 위한 웹 포트폴리오 제작  
-▶ **특징:**
+▶ **목적:** 학부 전공 과제 및 개인 역량 증명을 위한 웹 포트폴리오 제작 
+▶ **특징**
   - HTML5/CSS 기반 제작
   - Flexbox 레이아웃 적용 및 우측 고정 네비게이션(TOC)을 활용한 Smooth Scrolling 구현
   - Shields.io 뱃지 연동 및 반응형 화면 구성
@@ -26,15 +26,15 @@
 ## Sections
 
 ▶ **Profile / Contact**
-   - 프로필 이미지, 기본 인적사항, 이메일과 Instagram/Github/X 하이퍼링크 연결  
+   - 프로필 이미지, 기본 인적사항, 이메일과 Instagram/Github/X 하이퍼링크 연결 
 ▶ **About Me**
-   - 로우레벨 탐구 및 시스템 보안을 지향하는 개발 철학 및 목표 서술  
+   - 로우레벨 탐구 및 시스템 보안을 지향하는 개발 철학 및 목표 서술 
 ▶ **Education**
-   - 컴퓨터공학 전공 및 주요 이력 양끝 정렬(Flexbox) 배치  
+   - 컴퓨터공학 전공 및 주요 이력 양끝 정렬(Flexbox) 배치 
 ▶ **Tech Stack**
-   - C, C++, Python, Linux(Rocky Linux), HTML/CSS 등 주요 기술 뱃지화  
+   - C, C++, Python, Linux(Rocky Linux), HTML/CSS 등 주요 기술 뱃지화 
 ▶ **Activity**
-   - BPFDoor 악성코드 정적·동적 분석   
+   - BPFDoor 악성코드 정적·동적 분석  
 
 ---
 
