@@ -6,6 +6,52 @@
     <title>오승현 포트폴리오</title>
   
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            scroll-margin-top: 40px;
+        }
+
+        .side-toc {
+            position: fixed;
+            right: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: grey;
+            padding: 15px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            border: 1px solid #eee;
+            z-index: 1000;
+        }
+
+        .side-toc ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .side-toc li{
+            max-width: 12px 0;
+        }
+
+        .side-toc a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s ease-in-out;
+            display: block;
+        }
+
+        .side-toc a:hover {
+            color: #1a73e8;
+            font-weight: bold;
+            transform: translateX(-3px);
+        }
+
         body {
             padding-left: 25px;
         }    
@@ -81,7 +127,19 @@
     </style>
 </head>
 <body>
-    <section class="profile-section">
+
+    <nav class="side-toc">
+        <ul>
+            <li><a href="#profile">PROFILE</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#certificate">CERTIFICATE</a></li>
+            <li><a href="#curriculum">CURRICULUM</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#activity">ACTIVITY</a></li>
+        </ul>
+    </nav>
+
+    <section id="profile">
         <img src="profile.jpg" alt="프로필 사진" class="profile-pic">
     
         <h1 class="profile-name">SEUNG HYUN OH</h1>
@@ -114,7 +172,7 @@
 
     <hr style="margin-top: 100px; margin-bottom: 100px; border: solid 0.5px gray;">
 
-    <section class="education">
+    <section id="education">
         <h2 style="font-size: 75px; margin-top: 100px;">학력사항</h2>
             <div>
                 <h3 style="font-size: 50px; margin-top: -10px;">HANGUK UNIVERSITY OF FOREIGN STUDIES</h3>
@@ -130,7 +188,7 @@
 
     <hr style="margin-top: 100px; margin-bottom: 100px; border: solid 0.5px gray;">
 
-    <section class="certificate">
+    <section id="certificate">
         <h2 style="font-size: 75px; margin-top: 100px;">기술 자격증</h2>
             <div>
                 <h3 style="font-size: 50px; margin-top: -5px;">데이터 분석 준전문가(ADsP)</h3>
@@ -152,7 +210,7 @@
 
     <hr style="margin-top: 100px; margin-bottom: 100px; border: solid 0.5px gray;">
 
-    <section class="curriculum">
+    <section id="curriculum">
         <h2 style="font-size: 75px; margin-top: 100px;">교육이수</h2>
             <div>
                 <h3 style="font-size: 30px; margin-top: -20px;">K-Shield 주니어 온라인 기초과정</h3>
@@ -162,7 +220,7 @@
 
     <hr style="margin-top: 100px; margin-bottom: 100px; border: solid 0.5px gray;">
 
-    <section>
+    <section id="skills">
         <h2 style="font-size: 75px; margin-top: 100px;">SKILLS</h2>
             <div class="tech-stack-badges">
                 <img src="https://img.shields.io/badge/HTML5-%23E34F26?style=flat&logo=HTML5&logoColor=white" width="80px" height="35px">
@@ -199,7 +257,7 @@
 
     <hr style="margin-top: 100px; margin-bottom: 100px; border: solid 0.5px gray;">
 
-    <section class="activity">
+    <section id="activity">
         <h2 style="font-size: 75px; margin-top: 100px;">Activities</h2>
             <div>
                  <h3 style="color: gray; font-size: 30px; margin-top: -20px">[BPFDOOR 분석]</h3>
