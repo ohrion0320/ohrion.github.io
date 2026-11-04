@@ -1,7 +1,7 @@
 # Developer Portfolio
 
 > **오승현 개인 포트폴리오**  
-> Security Researcher를 목표로 구축한 단일 페이지 포트폴리오입니다.
+> Security Researcher를 목표로 제작한 개인 포트폴리오입니다.
 
 [![GitHub Pages Deployment](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-brightgreen?style=flat-square&logo=github)](https://ohrion0320.github.io)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](#)
