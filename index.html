@@ -72,6 +72,12 @@
             margin: 0;           
         }
 
+        .skill-info {
+            color: gray;
+            margin-left: 20px;
+            margin-top: -10px;
+            line-height: 20px;
+        }
     </style>
 </head>
 <body>
@@ -156,23 +162,51 @@
 
     <hr style="margin-top: 100px; margin-bottom: 100px; border: solid 0.5px gray;">
 
-    <section class="skills">
+    <section>
         <h2 style="font-size: 75px; margin-top: 100px;">SKILLS</h2>
             <div class="tech-stack-badges">
-                <img src="https://img.shields.io/badge/HTML5-%23E34F26?style=flat&logo=HTML5&logoColor=white" width="70px" height="30px">
-                <img src="https://img.shields.io/badge/CSS-%23280FEE?style=flat" width="70px" height="30px">
-                <img src="https://img.shields.io/badge/Python-%233776AB?style=flat&logo=Python&logoColor=white" width="70px" height="30px">
-                <img src="https://img.shields.io/badge/Oracle-%23B12B28?style=flat" width="70px" height="30px">
-                <img src="https://img.shields.io/badge/MySQL-%234479A1?style=flat&logo=MySQL&logoColor=white" width="70px" height="30px">
-                <img src="https://img.shields.io/badge/django-%23092E20?style=flat&logo=django&logoColor=white" width="70px" height="30px">
-                <img src="https://img.shields.io/badge/Rocky%20Linux-%2310B981?style=flat&logo=Rocky%20Linux&logoColor=white" width="70px" height="30px">
+                <img src="https://img.shields.io/badge/HTML5-%23E34F26?style=flat&logo=HTML5&logoColor=white" width="80px" height="35px">
+                <img src="https://img.shields.io/badge/CSS-%23280FEE?style=flat" width="80px" height="35px">
+                <img src="https://img.shields.io/badge/Python-%233776AB?style=flat&logo=Python&logoColor=white" width="80px" height="35px">
+                <img src="https://img.shields.io/badge/Oracle-%23B12B28?style=flat" width="80px" height="35px">
+                <img src="https://img.shields.io/badge/MySQL-%234479A1?style=flat&logo=MySQL&logoColor=white" width="80px" height="35px">
+                <img src="https://img.shields.io/badge/django-%23092E20?style=flat&logo=django&logoColor=white" width="80px" height="35px">
+                <img src="https://img.shields.io/badge/Rocky%20Linux-%2310B981?style=flat&logo=Rocky%20Linux&logoColor=white" width="80px" height="35px">
+            </div>
+            <div>
+                <h3 style="color: gray; font-size: 30px;">[LANGUAGE]</h3>
+                    <p style="color: gray; margin-top: -10px; margin-left: 20px; line-height: 30px;">▶HTML/CSS<br>
+                        - 기초 UI 설계 및 기본 문법 습득</p>
+                    <p style="color: gray; margin-top: -10px; margin-left: 20px; line-height: 30px;">▶PYTHON<br>
+                        - 파이썬 문법 습득<br>- 포인터 기반 트리 구현, 그래프 알고리즘이나 동적 계획법 활용 가능<br>- 소켓 통신, TCP/UDP 클라이언트-서버 구조, 간단한 HTTP 통신 흐름을 직접 코드로 구현 가능</p>
+            </div>
+            <div>
+                <h3 style="color: gray; font-size: 30px;">[DBMS]</h3>
+                    <p style="color: gray; margin-top: -10px; margin-left: 20px; line-height: 30px;">▶ORACLE | MYSQL<br>
+                        - DB 설치 및 기본 SQL 작성<br>- DB 모델링 기법 및 정규화<br>- 트랜잭션의 개념 및 처리방법과 PL/SQL 작성</p>
+            </div>
+            <div>
+                 <h3 style="color: gray; font-size: 30px;">[FRAMEWORK]</h3>
+                    <p style="color: gray; margin-top: -10px; margin-left: 20px; line-height: 30px;">▶DJANGO<br>
+                        - Django / DRF 기반 RESTful API 구축<br> - ORM 쿼리 최적화<br> - 비동기 백그라운드 처리 파이프라인</p>
+            </div>
+            <div>
+                 <h3 style="color: gray; font-size: 30px;">[OS]</h3>
+                     <p style="color: gray; margin-top: -10px; margin-left: 20px; line-height: 30px;">▶ROCKY LINUX<br>
+                        - 엔터프라이즈 서버 환경 구촉<br> - 시스템 보안 강화<br> - Bash 스크립트 기반 자동화</p>
             </div>
     </section>
 
     <hr style="margin-top: 100px; margin-bottom: 100px; border: solid 0.5px gray;">
 
     <section class="activity">
-        <h2 style="font-size: 75px; margin-top: 100px;">Activities</h2>       
+        <h2 style="font-size: 75px; margin-top: 100px;">Activities</h2>
+            <div>
+                 <h3 style="color: gray; font-size: 30px; margin-top: -20px">[BPFDOOR 분석]</h3>
+                    <p style="color: gray; margin-top: -10px; margin-left: 20px; line-height: 30px;">리눅스 서버 환경에서 전형적인 포트 바인딩 없이 동작하는 고도화된 백도어인 BPFDoor(Berkeley Packet Filter)의 동작 원리를 정적·동적 리버스 엔지니어링 기법으로 파헤쳤습니다.<br>
+                        BPFDoor가 Raw Socket과 BPF 필터를 결합하여 OS 커널 네트워크 계층에서 매직 패킷을 직접 수신하고, iptables 등 로컬 방화벽 정책을 우회하는 스텔스 메커니즘을 공부했습니다. <br>
+                        또한, 프로세스 명 마스커레이딩(Masquerading)과 메모리 공간에서의 리버스 쉘 실행 과정 등 안티 포렌식 요소들을 추적했습니다.</p>
+            </div>       
     </section>
 
 </body>
