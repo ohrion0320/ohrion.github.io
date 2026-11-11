@@ -35,7 +35,7 @@
 ### ▶ Education
 - 컴퓨터공학 전공 및 주요 이력 양끝 정렬(Flexbox) 배치
 
-### Tech Stack
+### ▶ Tech Stack
 - Python, Linux(Rocky Linux), HTML/CSS, Oracle 등 주요 기술 뱃지화
 
 ### ▶ Activity
