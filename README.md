@@ -10,7 +10,7 @@
 ---
 
 ## Link
-▶ [https://ohrion0320.github.io 바로가기](https://ohrion0320.github.io)
+▶ [https://ohrion0320.github.io 바로가기](https://ohrion0320.github.io/ohrion.github.io/)
 
 ---
 
